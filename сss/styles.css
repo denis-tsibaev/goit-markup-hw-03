@@ -49,6 +49,44 @@ body span {
   color: var(--accent-color);
 }
 
+.container {
+  width: 1170px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.flex-cont {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation {
+  display: flex;
+  align-items: center;
+}
+
+.nav-list {
+  display: flex;
+}
+
+.nav-list .item + .item {
+  margin-left: 50px;
+}
+
+.mailtel {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--second-dark-color);
+}
+
+.mailtel-list {
+  display: flex;
+}
+
+.mailtel-list .item + .item {
+  margin-left: 50px;
+}
+
 .logo {
   font-family: var(--second-font);
   font-weight: 700;
@@ -80,7 +118,7 @@ h2 {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.167;
-  /* text-align: center; */
+  text-align: center;
 }
 
 .banner {
@@ -96,12 +134,19 @@ h2 {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.875;
-  /* display: flex; */
   align-items: center;
   letter-spacing: 0.06em;
   border-style: none;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+}
+
+.feature-list {
+  display: flex;
+}
+
+.feature-list .item + .item {
+  margin-left: 30px;
 }
 
 .feature li h3 {
@@ -116,14 +161,30 @@ h2 {
   color: var(--second-dark-color);
 }
 
+.business-list {
+  display: flex;
+}
+
+.business-list .item + .item {
+  margin-left: 30px;
+}
+
 .team {
   background-color: var(--background-team-section);
+}
+
+.team-list {
+  display: flex;
+}
+
+.team-list .item + .item {
+  margin-left: 30px;
 }
 
 .team li p {
   font-size: 16px;
   line-height: 1.187;
-  /* text-align: center; */
+  text-align: center;
   color: var(--second-dark-color);
 }
 
@@ -131,14 +192,15 @@ h2 {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.187;
+  text-align: center;
 }
 
-button {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  /* text-align: center; */
-  /* color: #FFFFFF; */
+.gallery-list {
+  display: flex;
+}
+
+.gallery-list .item + .item {
+  margin-left: 8px;
 }
 
 .gallery li h3 {
@@ -154,6 +216,17 @@ button {
   color: var(--second-dark-color);
 }
 
+.project-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+
 .btn {
   border-style: none;
 }
@@ -166,12 +239,6 @@ button {
 
 address {
   color: var(--white-color);
-}
-
-.mailtel {
-  font-weight: 500;
-  letter-spacing: 0.02em;
-  color: var(--second-dark-color);
 }
 
 address {

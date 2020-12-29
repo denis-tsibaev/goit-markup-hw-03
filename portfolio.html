@@ -18,98 +18,104 @@
 <body>
 	<!-- Шапка сайта -->
 	<header>
-		<nav>
-			<a class="logo" href="./index.html"> <span>Web</span>Studio</a>
-			<ul>
-				<li>
-					<a href="./index.html">Студия</a>
-				</li>
-				<li>
-					<a class="current" href="./portfolio.html">Портфолио</a>
-				</li>
-				<li>
-					<a href="#contacts">Контакты</a>
-				</li>
-			</ul>
-		</nav>
-		<ul>
-			<li><a class="address" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-			<li><a class="address" href="tel:+380961111111">+38 096 111 11 11</a></li>
-		</ul>
+		<div class="container">
+			<div class="flex-cont">
+				<nav class="navigation">
+					<a class="logo" href="./index.html"> <span>Web</span>Studio</a>
+					<ul class="nav-list">
+						<li class="item">
+							<a href="./index.html">Студия</a>
+						</li>
+						<li class="item">
+							<a class="current" href="./portfolio.html">Портфолио</a>
+						</li>
+						<li class="item">
+							<a href="#contacts">Контакты</a>
+						</li>
+					</ul>
+				</nav>
+				<ul class="mailtel-list">
+					<li class="item"><a class="mailtel" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+					<li class="item"> <a class="mailtel" href="tel:+380961111111">+38 096 111 11 11</a></li>
+				</ul>
+			</div>
+		</div>
 	</header>
 	<!-- //Шапка сайта -->
 
 	<!-- секция кнопок и галерея -->
 	<section class="gallery">
-		<ul>
-			<li><button class="btn" type="button">Все</button></li>
-			<li><button class="btn" type="button">Веб-сайты</button></li>
-			<li><button class="btn" type="button">Приложения</button></li>
-			<li><button class="btn" type="button">Дизайн</button></li>
-			<li><button class="btn" type="button">Маркетинг</button></li>
-		</ul>
+		<div class="container">
+			<ul class="gallery-list">
+				<li class="item"><button class="btn" type="button">Все</button></li>
+				<li class="item"><button class="btn" type="button">Веб-сайты</button></li>
+				<li class="item"><button class="btn" type="button">Приложения</button></li>
+				<li class="item"><button class="btn" type="button">Дизайн</button></li>
+				<li class="item"><button class="btn" type="button">Маркетинг</button></li>
+			</ul>
 
-		<ul>
-			<li>
-				<h3>Технокряк</h3>
-				<p>Веб-сайт</p>
-				<img src="./img_portf/img-0.jpg" alt="галерея работ" width="370" height="294">
-			</li>
-			<li>
-				<h3>Постер New Orlean vs Golden Star</h3>
-				<p>Дизайн</p>
-				<img src="./img_portf/img-1.jpg" alt="галерея работ" width="370" height="294">
-			</li>
-			<li>
-				<h3>Ресторан Seafood</h3>
-				<p>Приложение</p>
-				<img src="./img_portf/img-2.jpg" alt="галерея работ" width="370" height="294">
-			</li>
-			<li>
-				<h3>Проект Prime</h3>
-				<p>Маркетинг</p>
-				<img src="./img_portf/img-3.jpg" alt="галерея работ" width="370" height="294">
-			</li>
-			<li>
-				<h3>Проект Boxes</h3>
-				<p>Приложение</p>
-				<img src="./img_portf/img-4.jpg" alt="галерея работ" width="370" height="294">
-			</li>
-			<li>
-				<h3>Inspiration has no Borders</h3>
-				<p>Веб-сайт</p>
-				<img src="./img_portf/img-5.jpg" alt="галерея работ" width="370" height="294">
-			</li>
-			<li>
-				<h3>Издание Limited Edition</h3>
-				<p>Дизайн</p>
-				<img src="./img_portf/img-6.jpg" alt="галерея работ" width="370" height="294">
-			</li>
-			<li>
-				<h3>Проект LAB</h3>
-				<p>Маркетинг</p>
-				<img src="./img_portf/img-7.jpg" alt="галерея работ" width="370" height="294">
-			</li>
-			<li>
-				<h3>Growing Business</h3>
-				<p>Приложение</p>
-				<img src="./img_portf/img-8.jpg" alt="галерея работ" width="370" height="294">
-			</li>
-		</ul>
-
+			<ul class="project-list">
+				<li class="item">
+					<h3>Технокряк</h3>
+					<p>Веб-сайт</p>
+					<img src="./img_portf/img-0.jpg" alt="галерея работ" width="370" height="294">
+				</li>
+				<li class="item">
+					<h3>Постер New Orlean vs Golden Star</h3>
+					<p>Дизайн</p>
+					<img src="./img_portf/img-1.jpg" alt="галерея работ" width="370" height="294">
+				</li>
+				<li class="item">
+					<h3>Ресторан Seafood</h3>
+					<p>Приложение</p>
+					<img src="./img_portf/img-2.jpg" alt="галерея работ" width="370" height="294">
+				</li>
+				<li class="item">
+					<h3>Проект Prime</h3>
+					<p>Маркетинг</p>
+					<img src="./img_portf/img-3.jpg" alt="галерея работ" width="370" height="294">
+				</li>
+				<li class="item">
+					<h3>Проект Boxes</h3>
+					<p>Приложение</p>
+					<img src="./img_portf/img-4.jpg" alt="галерея работ" width="370" height="294">
+				</li>
+				<li class="item">
+					<h3>Inspiration has no Borders</h3>
+					<p>Веб-сайт</p>
+					<img src="./img_portf/img-5.jpg" alt="галерея работ" width="370" height="294">
+				</li>
+				<li class="item">
+					<h3>Издание Limited Edition</h3>
+					<p>Дизайн</p>
+					<img src="./img_portf/img-6.jpg" alt="галерея работ" width="370" height="294">
+				</li>
+				<li class="item">
+					<h3>Проект LAB</h3>
+					<p>Маркетинг</p>
+					<img src="./img_portf/img-7.jpg" alt="галерея работ" width="370" height="294">
+				</li>
+				<li class="item">
+					<h3>Growing Business</h3>
+					<p>Приложение</p>
+					<img src="./img_portf/img-8.jpg" alt="галерея работ" width="370" height="294">
+				</li>
+			</ul>
+		</div>
 	</section>
 	<!-- //секция кнопок и галерея -->
 
 	<footer class="footer">
-		<a class="logo" href="./index.html"><span>Web</span>Studio</a>
-		<address>
-			г. Киев, пр-т Леси Украинки, 26
-		</address>
-		<ul>
-			<li><a id="contacts" class="mailtel-ftr" href="mailto:info@example.com">info@example.com</a></li>
-			<li><a class="mailtel-ftr" href="tel:+380991111111">+38 099 111 11 11</a></li>
-		</ul>
-
+		<div class="container">
+			<a class="logo" href="./index.html"><span>Web</span>Studio</a>
+			<address>
+				г. Киев, пр-т Леси Украинки, 26
+			</address>
+			<ul>
+				<li><a id="contacts" class="mailtel-ftr" href="mailto:info@example.com">info@example.com</a></li>
+				<li><a class="mailtel-ftr" href="tel:+380991111111">+38 099 111 11 11</a></li>
+			</ul>
+		</div>
 	</footer>
 </body>
 
