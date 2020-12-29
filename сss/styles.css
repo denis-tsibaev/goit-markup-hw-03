@@ -1,0 +1,191 @@
+/* Используемые шрифты  */
+/* font-family: "Raleway", sans-serif; */
+/* font-family: "Roboto", sans-serif; */
+
+/* Используемые цвета */
+/* color: #2196F3; */
+/* color: #212121; */
+/* color: #757575; */
+/* color: rgba(255, 255, 255, 0.6); */
+/* background-color:  #2f303a */
+
+:root {
+  --main-dark-color: #212121;
+  --second-dark-color: #757575;
+  --accent-color: #2196f3;
+  --tel-mail-color-footer: rgba(255, 255, 255, 0.6);
+  --main-font: "Roboto", sans-serif;
+  --second-font: "Raleway", sans-serif;
+  --background-color: #2f303a;
+  --white-color: #ffffff;
+  --background-team-section: #f5f4fa;
+}
+
+/* Стили к тэгам */
+body {
+  font-family: var(--main-font);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  color: var(--main-dark-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--main-dark-color);
+}
+
+a:hover:not(.logo),
+a:focus:not(.logo) {
+  color: var(--accent-color);
+}
+
+ul {
+  list-style: none;
+}
+
+body span {
+  color: var(--accent-color);
+}
+
+.logo {
+  font-family: var(--second-font);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.footer .logo {
+  color: var(--white-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+}
+
+.current {
+  color: var(--accent-color);
+}
+
+h1 {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.167;
+  /* text-align: center; */
+}
+
+.banner {
+  background-color: var(--background-color);
+  text-align: center;
+}
+
+.banner-btn {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  width: 200px;
+  height: 50px;
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 1.875;
+  /* display: flex; */
+  align-items: center;
+  letter-spacing: 0.06em;
+  border-style: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
+
+.feature li h3 {
+  font-size: 14px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: var(--main-dark-color);
+}
+
+.feature li p {
+  line-height: 1.71;
+  color: var(--second-dark-color);
+}
+
+.team {
+  background-color: var(--background-team-section);
+}
+
+.team li p {
+  font-size: 16px;
+  line-height: 1.187;
+  /* text-align: center; */
+  color: var(--second-dark-color);
+}
+
+.team li h3 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.187;
+}
+
+button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  /* text-align: center; */
+  /* color: #FFFFFF; */
+}
+
+.gallery li h3 {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.gallery li p {
+  font-size: 16px;
+  line-height: 1.875;
+  color: var(--second-dark-color);
+}
+
+.btn {
+  border-style: none;
+}
+.btn:hover,
+.btn:focus {
+  background-color: var(--accent-color);
+  color: var(--white-color);
+  cursor: pointer;
+}
+
+address {
+  color: var(--white-color);
+}
+
+.mailtel {
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  color: var(--second-dark-color);
+}
+
+address {
+  /* убирает курсив адреса */
+  font-style: normal;
+  line-height: 1.71;
+  color: var(--white-color);
+}
+
+.footer {
+  background-color: var(--background-color);
+}
+
+.mailtel-ftr {
+  color: var(--tel-mail-color-footer);
+  line-height: 1.714;
+}
