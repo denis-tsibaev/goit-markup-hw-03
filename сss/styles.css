@@ -8,6 +8,7 @@
 /* color: #757575; */
 /* color: rgba(255, 255, 255, 0.6); */
 /* background-color:  #2f303a */
+/* #eeeeee */
 
 :root {
   --main-dark-color: #212121;
@@ -19,6 +20,7 @@
   --background-color: #2f303a;
   --white-color: #ffffff;
   --background-team-section: #f5f4fa;
+  --container-border: #eeeeee;
 }
 
 /* Стили к тэгам */
@@ -43,6 +45,8 @@ a:focus:not(.logo) {
 
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }
 
 body span {
@@ -50,7 +54,9 @@ body span {
 }
 
 .container {
-  width: 1170px;
+  width: 1200px;
+  padding-left: 15px;
+  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -63,10 +69,12 @@ body span {
 .navigation {
   display: flex;
   align-items: center;
+  height: 80px;
 }
 
 .nav-list {
   display: flex;
+  margin-left: 93px;
 }
 
 .nav-list .item + .item {
@@ -81,6 +89,7 @@ body span {
 
 .mailtel-list {
   display: flex;
+  align-items: center;
 }
 
 .mailtel-list .item + .item {
@@ -112,6 +121,11 @@ h1 {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color);
+  padding-top: 200px;
+  padding-bottom: 30px;
+  padding-left: 452px;
+  padding-right: 452px;
+  margin: 0;
 }
 
 h2 {
@@ -126,77 +140,104 @@ h2 {
   text-align: center;
 }
 
-.banner-btn {
+.banner button {
+  margin-bottom: 200px;
+  border-style: none;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
   background-color: var(--accent-color);
   color: var(--white-color);
   width: 200px;
   height: 50px;
+  cursor: pointer;
+}
+
+.banner-btn {
   font-weight: bold;
   font-size: 16px;
   line-height: 1.875;
   align-items: center;
   letter-spacing: 0.06em;
-  border-style: none;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
-  border-radius: 4px;
+}
+
+.feature {
+  /* outline: solid 2px tomato; */
 }
 
 .feature-list {
+  margin-top: 94px;
   display: flex;
+  justify-content: space-between;
 }
 
-.feature-list .item + .item {
-  margin-left: 30px;
+.feature-list .item {
+  width: 270px;
 }
 
-.feature li h3 {
+.feature-list h3 {
+  margin: 0;
   font-size: 14px;
   font-weight: 700;
   text-transform: uppercase;
   color: var(--main-dark-color);
 }
 
-.feature li p {
+.feature-list p {
+  margin-top: 10px;
+  margin-bottom: 7px;
   line-height: 1.71;
   color: var(--second-dark-color);
 }
 
-.business-list {
-  display: flex;
+.business {
+  margin-top: 94px;
+  /* outline: solid 2px tomato; */
 }
 
-.business-list .item + .item {
-  margin-left: 30px;
+.business-list {
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
 }
 
 .team {
+  margin-top: 94px;
   background-color: var(--background-team-section);
 }
 
 .team-list {
   display: flex;
+  justify-content: space-between;
 }
 
-.team-list .item + .item {
-  margin-left: 30px;
+.team-list .item {
+  background: var(--white-color);
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
-.team li p {
+.team-list p {
   font-size: 16px;
   line-height: 1.187;
   text-align: center;
   color: var(--second-dark-color);
 }
 
-.team li h3 {
+.team-list h3 {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.187;
   text-align: center;
 }
 
+.gallery {
+  margin-top: 94px;
+}
+
 .gallery-list {
   display: flex;
+  justify-content: center;
 }
 
 .gallery-list .item + .item {
@@ -217,18 +258,28 @@ h2 {
 }
 
 .project-list {
+  margin-top: 34px;
   display: flex;
+  justify-content: space-between;
   flex-wrap: wrap;
 }
 
-button {
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
+.project-list .item {
+  box-sizing: border-box;
+  background: var(--white-color);
+  border: 1px solid var(--container-border);
+  margin-bottom: 30px;
 }
 
 .btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  padding: 6px 22px;
   border-style: none;
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
+  border-radius: 4px;
 }
 .btn:hover,
 .btn:focus {
@@ -249,6 +300,7 @@ address {
 }
 
 .footer {
+  margin-top: 94px;
   background-color: var(--background-color);
 }
 
