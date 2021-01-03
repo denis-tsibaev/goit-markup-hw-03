@@ -176,10 +176,10 @@ h2 {
 
 .feature {
   /* outline: solid 2px tomato; */
+  padding-top: 94px;
 }
 
 .feature-list {
-  margin-top: 94px;
   display: flex;
   justify-content: space-between;
 }
@@ -204,7 +204,8 @@ h2 {
 }
 
 .business {
-  margin-top: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
   /* outline: solid 2px tomato; */
 }
 
@@ -215,8 +216,9 @@ h2 {
 }
 
 .team {
-  margin-top: 94px;
-  background-color: var(--background-team-section);
+  padding-top: 94px;
+  padding-bottom: 94px;
+  /* background-color: var(--background-team-section); */
 }
 
 .team-list {
@@ -251,7 +253,8 @@ h2 {
 }
 
 .gallery {
-  margin-top: 94px;
+  padding-top: 94px;
+  padding-bottom: 94px;
 }
 
 .gallery-list {
@@ -336,7 +339,6 @@ address {
 }
 
 .footer {
-  margin-top: 94px;
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--background-color);
