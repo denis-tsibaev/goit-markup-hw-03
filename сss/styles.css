@@ -218,7 +218,7 @@ h2 {
 .team {
   padding-top: 94px;
   padding-bottom: 94px;
-  /* background-color: var(--background-team-section); */
+  background-color: var(--background-team-section);
 }
 
 .team-list {
