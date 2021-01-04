@@ -124,9 +124,6 @@ body span {
 
 .footer .logo {
   color: var(--white-color);
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
 }
 
 .current {
@@ -349,6 +346,10 @@ address {
   padding-top: 60px;
   padding-bottom: 60px;
   background-color: var(--background-color);
+}
+
+.footer-list .item {
+  padding-top: 9px;
 }
 
 .mailtel-ftr {
