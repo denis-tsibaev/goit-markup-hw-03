@@ -155,7 +155,12 @@ h2 {
 
 .hero-banner {
   background-color: var(--hero-background-color);
-  text-align: center;  
+  text-align: center;
+  /* display: flex; */
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* min-height: 600px; */
+  /* max-width: 1600px; */
 }
 
 .div-hero-button {
