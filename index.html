@@ -20,7 +20,7 @@
 	<header>
 		<div class="container flex-cont">
 			<nav class="navigation">
-				<a class="logo" href="./index.html"><span>Web</span>Studio</a>
+				<a class="logo" href="./index.html"><span class="logo-accent">Web</span>Studio</a>
 				<ul class="nav-list">
 					<li class="item">
 						<a class="current" href="./index.html">Студия</a>
@@ -33,16 +33,16 @@
 					</li>
 				</ul>
 			</nav>
-			<ul class="mailtel-list">
-				<li class="item"><a class="mailtel" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
-				<li class="item"> <a class="mailtel" href="tel:+380961111111">+38 096 111 11 11</a></li>
+			<ul class="contacts-list">
+				<li class="item"><a class="contacts" href="mailto:info@devstudio.com">info@devstudio.com</a></li>
+				<li class="item"> <a class="contacts" href="tel:+380961111111">+38 096 111 11 11</a></li>
 			</ul>
 		</div>
 	</header>
 	<!-- //Шапка сайта -->
 
 	<!-- Баннер-->
-	<section class="banner">
+	<section class="hero-banner">
 		<h1>Эффективные решения
 			для вашего бизнеса</h1>
 		<div class="div-hero-button">
@@ -93,21 +93,33 @@
 		<div class="container">
 			<h2>Наша команда</h2>
 			<ul class="team-list">
-				<li class="item"><img src="./img/photho1.jpg" alt="Игорь Демьяненко" width="270" height="260">
-					<h3>Игорь Демьяненко</h3>
-					<p>Product Designer</p>
+				<li class="item">
+					<img src="./img/photho1.jpg" alt="Игорь Демьяненко" width="270" height="260">
+					<div class="member-description">
+						<h3>Игорь Демьяненко</h3>
+						<p>Product Designer</p>
+					</div>
 				</li>
-				<li class="item"><img src="./img/photo2.jpg" alt="Ольга Репина" width="270" height="260">
-					<h3>Ольга Репина</h3>
-					<p>Frontend Developer</p>
+				<li class="item">
+					<img src="./img/photo2.jpg" alt="Ольга Репина" width="270" height="260">
+					<div class="member-description">
+						<h3>Ольга Репина</h3>
+						<p>Frontend Developer</p>
+					</div>
 				</li>
-				<li class="item"><img src="./img/photo3.jpg" alt="Николай Тарасов" width="270" height="260">
-					<h3>Николай Тарасов</h3>
-					<p>Marketing</p>
+				<li class="item">
+					<img src="./img/photo3.jpg" alt="Николай Тарасов" width="270" height="260">
+					<div class="member-description">
+						<h3>Николай Тарасов</h3>
+						<p>Marketing</p>
+					</div>
 				</li>
-				<li class="item"><img src="./img/photo4.jpg" alt="Михаил Ермаков" width="270" height="260">
-					<h3>Михаил Ермаков</h3>
-					<p>UI Designer</p>
+				<li class="item">
+					<img src="./img/photo4.jpg" alt="Михаил Ермаков" width="270" height="260">
+					<div class="member-description">
+						<h3>Михаил Ермаков</h3>
+						<p>UI Designer</p>
+					</div>
 				</li>
 			</ul>
 		</div>
@@ -116,14 +128,17 @@
 
 	<footer class="footer">
 		<div class="container">
-			<a class="logo" href="./index.html"><span>Web</span>Studio</a>
+			<a class="logo" href="./index.html"><span class="logo-accent">Web</span>Studio</a>
 			<address>
 				г. Киев, пр-т Леси Украинки, 26
 			</address>
 			<ul class="footer-list">
-				<li class="item"><a id="contacts" class="mailtel-ftr"
-						href="mailto:info@example.com">info@example.com</a></li>
-				<li class="item"><a class="mailtel-ftr" href="tel:+380991111111">+38 099 111 11 11</a></li>
+				<li class="item">
+					<a id="contacts" class="contacts-ftr" href="mailto:info@example.com">info@example.com</a>
+				</li>
+				<li class="item">
+					<a class="contacts-ftr" href="tel:+380991111111">+38 099 111 11 11</a>
+				</li>
 			</ul>
 		</div>
 	</footer>
