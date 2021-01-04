@@ -104,11 +104,6 @@ body span {
   align-items: center;
 }
 
-.mailtel-list .item a {
-  padding-top: 20px;
-  padding-bottom: 20px;
-}
-
 .mailtel-list .item + .item {
   margin-left: 50px;
 }
@@ -118,11 +113,10 @@ body span {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  padding-top: 20px;
-  padding-bottom: 20px;
 }
 
 .footer .logo {
+  margin-bottom: 20px;
   color: var(--white-color);
 }
 
@@ -352,8 +346,8 @@ address {
 }
 
 .footer-list .item {
-  padding-top: 9px;
-  /* margin-top: 9px; */
+  margin-top: 9px;
+  /* padding-top: 9px; */
 
   /* не могу определиться дать марджин или паддинг.
   По идее марджин раздвигает детей, но паддинг даёт
