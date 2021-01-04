@@ -138,9 +138,8 @@ h1 {
   text-transform: uppercase;
   color: var(--white-color);
 
-  padding-top: 200px;
-  padding-bottom: 30px;
-  margin: 0;
+  margin-top: 0;
+  margin-bottom: 30px;
 }
 
 h2 {
@@ -156,15 +155,14 @@ h2 {
 .hero-banner {
   background-color: var(--hero-background-color);
   text-align: center;
-  /* display: flex; */
-  /* justify-content: center; */
-  /* align-items: center; */
-  /* min-height: 600px; */
-  /* max-width: 1600px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 600px;
 }
 
-.div-hero-button {
-  padding-bottom: 200px;
+.div-hero {
+  max-width: 650px;
 }
 
 .hero-btn {
