@@ -137,10 +137,9 @@ h1 {
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--white-color);
+
   padding-top: 200px;
   padding-bottom: 30px;
-  padding-left: 452px;
-  padding-right: 452px;
   margin: 0;
 }
 
@@ -149,7 +148,9 @@ h2 {
   font-size: 36px;
   line-height: 1.167;
   text-align: center;
-  margin: 0;
+
+  margin-top: 0;
+  margin-bottom: 50px;
 }
 
 .banner {
@@ -167,8 +168,9 @@ h2 {
   border-radius: 4px;
   background-color: var(--accent-color);
   color: var(--white-color);
-  width: 200px;
-  height: 50px;
+  /* width: 200px; */
+  /* height: 50px; */
+  padding: 10px 32px;
   cursor: pointer;
 
   font-weight: bold;
@@ -214,7 +216,7 @@ h2 {
 }
 
 .business-list {
-  margin-top: 50px;
+  /* margin-top: 50px; */
   display: flex;
   justify-content: space-between;
 }
@@ -226,7 +228,7 @@ h2 {
 }
 
 .team-list {
-  margin-top: 50px;
+  /* margin-top: 50px; */
   display: flex;
   justify-content: space-between;
 }
@@ -266,6 +268,7 @@ h2 {
 .gallery-list {
   display: flex;
   justify-content: center;
+  margin-bottom: 34px;
 }
 
 .gallery-list .item + .item {
@@ -296,7 +299,6 @@ h2 {
 }
 
 .project-list {
-  margin-top: 34px;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
