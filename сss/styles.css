@@ -29,7 +29,7 @@ body {
   font-family: var(--main-font);
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.14;
+  line-height: 1.1428;
   letter-spacing: 0.03em;
   color: var(--main-dark-color);
 }
@@ -69,14 +69,13 @@ a:focus:not(.logo) {
   color: var(--accent-color);
 }
 
-.hdr {
+.header {
   border-bottom: 1px solid var(--header-border);
 }
 
 .flex-cont {
   display: flex;
   justify-content: space-between;
-  min-height: 80px;
 }
 
 .navigation {
@@ -91,8 +90,8 @@ a:focus:not(.logo) {
 
 /* для удобства наведения курсора */
 .nav-list .item a {
-  padding-top: 20px;
-  padding-bottom: 20px;
+  padding-top: 33px;
+  padding-bottom: 33px;
 }
 
 .nav-list .item + .item {
@@ -219,6 +218,10 @@ h2 {
   justify-content: space-between;
 }
 
+.business-list .item {
+  width: 370px;
+}
+
 .team {
   padding-top: 94px;
   padding-bottom: 94px;
@@ -227,10 +230,12 @@ h2 {
 
 .team-list {
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-between;
 }
 
 .team-list .item {
+  width: 270px;
   background: var(--white-color);
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -315,13 +320,20 @@ h2 {
 .project-list {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-between;
+  /* justify-content: space-between; */
 }
 
 .project-list .item {
+  max-width: 370px;
+  width: calc((100%-60px) / 3);
   background: var(--white-color);
   border: 1px solid var(--container-border);
+  margin-right: 30px;
   margin-bottom: 30px;
+}
+
+.project-list .item:nth-child(3n) {
+  margin-right: 0;
 }
 
 .project-list .item:nth-last-child(-n + 3) {
@@ -342,7 +354,7 @@ address {
   background-color: var(--hero-background-color);
 }
 
-.footer-list .item {
+.footer-list {
   margin-top: 9px;
 }
 
