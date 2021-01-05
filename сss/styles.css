@@ -50,6 +50,7 @@ a {
   display: block;
   text-decoration: none;
   color: var(--main-dark-color);
+  font-weight: 500;
 }
 
 a:hover:not(.logo),
@@ -109,6 +110,11 @@ a:focus:not(.logo) {
   align-items: center;
 }
 
+.contacts-list .item a {
+  padding-top: 33px;
+  padding-bottom: 33px;
+}
+
 .contacts-list .item + .item {
   margin-left: 50px;
 }
@@ -157,11 +163,12 @@ h2 {
   display: flex;
   justify-content: center;
   align-items: center;
-  min-height: 600px;
+  padding-top: 200px;
+  padding-bottom: 200px;
 }
 
 .div-hero {
-  max-width: 650px;
+  width: 696px;
 }
 
 .hero-btn {
@@ -359,6 +366,7 @@ address {
 }
 
 .contacts-ftr {
+  font-weight: 400;
   color: var(--contacts-color-footer);
   line-height: 1.714;
 }
