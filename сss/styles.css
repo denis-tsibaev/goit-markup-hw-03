@@ -361,8 +361,12 @@ address {
   background-color: var(--hero-background-color);
 }
 
-.footer-list {
-  margin-top: 9px;
+.footer address {
+  margin-bottom: 9px;
+}
+
+.footer-list .item:not(:last-child) {
+  margin-bottom: 9px;
 }
 
 .contacts-ftr {
