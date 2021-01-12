@@ -53,8 +53,8 @@ a {
   font-weight: 500;
 }
 
-a:hover:not(.logo),
-a:focus:not(.logo) {
+a:hover:not(.logo):not(.project-link),
+a:focus:not(.logo):not(.project-link) {
   color: var(--accent-color);
 }
 
@@ -338,8 +338,6 @@ h2 {
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
-  color: var(--main-dark-color);
-
   margin-top: 0;
   margin-bottom: 4px;
 }
